@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #C6AD8F;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: #F6F4F2;
+  box-shadow: 0px 5px 5px -1px grey;
+}
+
+.header-logo {
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+  border: 3px solid #F6F4F2;
+  box-shadow: 0px 5px 5px -1px grey;
+}
+
+.header-tft {
+  margin: 0;
+  padding: 0;
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+  align-self: center;
+}
+
+.index-flex {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+.index-central-item {
+  height: calc(100vh - 600px);
+  display: flex;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: #425664 0px 3px 8px;
+  background-image: url("assets/img/index-banner.jpg");
+  background-color: #425664;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-option {
+  width: 500px;
+  height: 700px;
+  background-color: #F6F4F2;
+  box-shadow: grey 0px 3px 8px;
+  border-radius: 10px;
+}
