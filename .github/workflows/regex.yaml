@@ -10,4 +10,4 @@ jobs:
       - uses: naveenk1223/action-pr-title@master
         with:
           regex: '\d+:? (.+)'
-          allowed_prefixes: 'feature\/NNL-,bug\/NNL-,NNL-'
+          allowed_prefixes: 'feature/NNL-,bug/NNL-,NNL-'
