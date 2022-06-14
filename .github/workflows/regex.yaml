@@ -9,4 +9,5 @@ jobs:
     steps:
       - uses: naveenk1223/action-pr-title@master
         with:
-          regex: '(?i)^(feature\/NNL-|bug\/NNL-|NNL-)\d+:? (.+)'
+          regex: '\d+:? (.+)'
+          allowed_prefixes: 'feature\/NNL-,bug\/NNL-,NNL-'
