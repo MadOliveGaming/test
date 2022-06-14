@@ -11,3 +11,4 @@ jobs:
         with:
           regex: '\d+:? (.+)'
           allowed_prefixes: 'feature/NNL-,bug/NNL-,NNL-'
+          prefix_case_sensitive: false
