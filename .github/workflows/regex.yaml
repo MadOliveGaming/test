@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: naveenk1223/action-pr-title@master
         with:
-          regex: '/(feature|bug)i\/?NNL-\d+:? (.+)i'
+          regex: '(feature|bug)i\/?NNL-\d+:? (.+)i'
